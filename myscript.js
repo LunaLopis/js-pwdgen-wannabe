@@ -1,17 +1,15 @@
-let name = prompt ('come ti chiami?');
-
+let name = prompt('come ti chiami?');
 document.getElementById('greetings').innerHTML = name;
 
 
-let surname = prompt ('qual è il tuo cognome?');
-
+let surname = prompt('qual è il tuo cognome?');
 document.getElementById('greetings').innerHTML = surname;
 
-let color = prompt ('qual è il tuo colore preferito?');
-
+let color = prompt('qual è il tuo colore preferito?');
 document.getElementById('greetings').innerHTML = color;
 
-document.getElementById('greetings').innerHTML = `${name}${surname}${color}21` ;
+let newstring = `${name}${surname}${color}21`;
+document.getElementById('greetings').innerHTML = newstring;
 
 
 
